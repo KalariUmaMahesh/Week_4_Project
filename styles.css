@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://woorise.com/wp-content/uploads/2021/10/personality-quiz.png");
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Ensure background covers entire viewport */
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#quiz {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Add this to your CSS file */
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+#question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#options {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+/* Add this to your CSS file */
+.option {
+  background-color: #007bff; /* Default background color */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.option.active {
+  background-color: #4caf50; /* Color for selected option */
+  color: white;
+}
+
+.option.correct {
+  background-color: #4caf50; /* Color for correct answer */
+  color: white;
+}
+
+.option.incorrect {
+  background-color: #f44336; /* Color for incorrect answer */
+  color: white;
+}
+
+.reset {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #c82333;
+}
+#backToQuizzesBtn {
+  display: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#backToQuizzesBtn:hover {
+  background-color: #0056b3;
+}

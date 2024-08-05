@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Programming Quiz App</h1>
+    </header>
+    <main>
+      <section id="subject-selection">
+        <h2>Choose a Subject:</h2>
+        <button id="htmlBtn">HTML</button>
+        <button id="cssBtn">CSS</button>
+        <button id="javascriptBtn">JavaScript</button>
+        <button id="pythonBtn">Python</button>
+        <button id="javaBtn">Java</button>
+        <button id="sqlBtn">SQL</button>
+      </section>
+
+      <section id="quiz" style="display: none">
+        <div id="timer">Time Left: 0:30</div>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="submitBtn">Submit</button><br>
+        <!-- <button id="nextBtn">Next Question</button> -->
+      </section>
+
+      <section id="result" style="display: none">
+        <h2>Quiz Result</h2>
+        <p id="score"></p>
+        <button id="backToQuizzesBtn" style="display: none">
+          Back to Quizzes
+        </button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
